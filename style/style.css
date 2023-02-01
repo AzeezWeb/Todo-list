@@ -1,0 +1,164 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+body {
+  padding-top: 30px;
+}
+.container {
+  width: 50%;
+  height: 100%;
+  margin: 0 auto;
+  background-color: #F96464;
+  font-family: sans-serif;
+  color:#fff;
+  padding: 0 20px;
+  padding-bottom: 25px;
+}
+hr {
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+h2 {
+  font-weight: normal;
+  font-size: 2.6rem;
+  letter-spacing: 0.05em;
+}
+
+p {
+  font-size: 25px;
+  font-weight: 300;
+  word-break: break-all;
+ 
+}
+
+img {
+  width: 30px;
+  height: 30px;
+}
+
+.list {
+  list-style: none;
+  margin-bottom: 55px;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 30px;
+  background-color: #FF7676;
+ align-items: center;
+  margin-bottom: 5px;
+}
+
+.check {
+  padding: 0 ;
+  margin: 0 5px 0 0;
+  border: 2px solid #fff;
+  background-color: transparent;
+}
+
+.checkTwo {
+  background-color: #fff;
+}
+.icon {
+  display: flex;
+  align-items: center;
+}
+.check img {
+  width: 25px;
+  height: 25px;
+}
+
+
+.trash {
+  background-color: transparent;
+  border: none;
+}
+
+.trash img {
+  pointer-events: none;
+  transform: translateZ(10px);
+}
+.check img {
+  pointer-events: none;
+}
+
+.btn-click {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  margin-right: 30px;
+}
+
+.btn-click .filter, .filterTwo {
+  width: 75px;
+  min-width: 75px;
+  height: 35px;
+  margin-left: 20px;
+  background-color: #fff;
+  border-radius: 20px;
+  border: none;
+  padding: 0 2px;
+  cursor: pointer;
+}
+
+.filterTwo {
+  display: none;
+}
+.text {
+  text-decoration:line-through;
+  color: #d6cdcd;
+}
+ span {
+  display: block;
+  width: 33px;
+  height: 33px;
+  border-radius: 100%;
+  transform: translate(0%);
+  background-color: #FF7676;
+  transition: all 0.5s;
+}
+
+.filterTwo span {
+  transform: translate(110%);
+  background-color: #F96464;
+}
+
+form {
+  display: flex;
+  align-items: center;
+}
+h3 {
+  font-weight: 500;
+  margin-top: 40px;
+  margin-bottom: 0;  
+}
+form input {
+  width: 75%;
+  height: 40px;
+  font-size: 30px;
+  outline: none;
+  margin-right: 5px;
+}
+
+form button {
+  width: 150px;
+  height: 40px;
+  font-weight: 600;
+  color: #fff;
+  letter-spacing: 3px;
+  border: 2px solid #fff;
+  background-color: #FF7676;
+  transition: all 0.4s;
+}
+
+form button:hover {
+  background-color: #F96464;
+}
